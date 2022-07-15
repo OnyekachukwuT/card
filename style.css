@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 5;
+    margin: 0;
+}
+body{
+    background: rgb(27, 27, 27);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.card{
+    background: white;
+    width: 800px;
+    margin: 15px;
+    border-radius: 15px;
+    
+
+}
+.card-image{
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-1{
+    background-image:url('./images/bag\ 6.jpeg');
+    width: 200px;
+    border-radius: 10px;
+
+
+    
+}
+
+.card-2{
+    background-image:url('./images/bags\ 5.jpeg');
+    width: 200px;
+    background-size: cover;
+    height: 270px;
+    border-radius: 10px;
+
+    
+}
+
+.card-3{
+    background-image:url('./images/dress\ 1.jpeg');
+    height: 80;
+    border-radius: 10px;
+}
+
+.card-4{
+    background-image:url('./images/dress\ 14.jpeg');
+    height: 80;
+    border-radius: 10px;
+}
+.card h2{
+    padding: 10px;
+}
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    text-decoration-color: blue;
+
+}
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
